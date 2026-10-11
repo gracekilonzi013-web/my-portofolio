@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grace's ICT Portofolio</title>
+
+    <style>
+        * {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f1f5f9;
+    color: #1e293b;
+    line-height: 1.7;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #172554, #2563eb);
+    color: white;
+    text-align: center;
+    padding: 65px 20px;
+}
+
+header h1 {
+    font-size: 38px;
+    margin: 0 0 10px;
+}
+
+header p {
+    font-size: 18px;
+    margin: 0;
+    color: #dbeafe;
+}
+
+/* Navigation menu */
+nav {
+    background-color: #0f172a;
+    text-align: center;
+    padding: 16px 10px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 5px 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #93c5fd;
+}
+
+/* Content sections */
+section {
+    background-color: white;
+    margin: 28px auto;
+    padding: 30px;
+    max-width: 900px;
+    width: 90%;
+    border-radius: 14px;
+    box-shadow: 0 5px 18px rgba(15, 23, 42, 0.08);
+    scroll-margin-top: 80px;
+}
+
+section h2 {
+    color: #1d4ed8;
+    font-size: 26px;
+    margin-top: 0;
+    border-bottom: 2px solid #dbeafe;
+    padding-bottom: 10px;
+}
+
+/* Skill and project cards */
+.project {
+    background-color: #eff6ff;
+    padding: 18px;
+    margin: 14px 0;
+    border-radius: 10px;
+    border-left: 4px solid #2563eb;
+}
+
+.project h3 {
+    color: #1e40af;
+    margin-top: 0;
+}
+
+/* Skills list */
+section ul {
+    padding-left: 22px;
+}
+
+section li {
+    margin-bottom: 8px;
+}
+
+/* Contact links */
+section a {
+    color: #1d4ed8;
+}
+
+/* Footer */
+footer {
+    background-color: #166534;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    margin-top: 40px;
+}
+
+/* Mobile phone layout */
+@media (max-width: 600px) {
+    header {
+        padding: 45px 15px;
+    }
+
+    header h1 {
+        font-size: 29px;
+    }
+
+    nav a {
+        margin: 5px 7px;
+        font-size: 14px;
+    }
+
+    section {
+        padding: 22px;
+        margin: 20px auto;
+        width: 94%;
+    }
+}
+.profile-photo {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-bottom: 15px;
+}
+
+.intro {
+    max-width: 600px;
+    margin: 20px auto 0;
+    color: #dbeafe;
+    font-size: 16px;
+}.contact-button {
+    display: inline-block;
+    background-color: white;
+    color: #1d4ed8;
+    padding: 12px 25px;
+    margin-top: 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #dbeafe;
+    transform: translateY(-2px);
+}
+
+   </style>
+</head>
+
+<body>
+
+    <header>
+        <header>
+    <img src="images/profile.jpeg"
+         alt="My profile photo"
+         class="profile-photo">
+
+    <h1>My Portfolio</h1>
+    <p>Technology Enthusiast | Aspiring IT Professional</p>
+
+    <p class="intro">
+        Hello! Welcome to my personal portfolio.
+        I am passionate about technology and digital solutions.
+        I am developing my skills in computer systems, web development, 
+        and IT support while working on practical projects.
+        I enjoy learning new skills.
+    </p>
+</header>
+<a href="#contact" class=#contact-button">
+    Contact Me
+</a>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a> 
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am passionate about technology and digital solutions.</p>
+        <p>I am developing my skills in web development, computer systems, 
+        and IT support while working on practical projects.</p>
+
+   <section id="projects">
+     <h2>My Projects</h2>
+
+     <div class="project">
+        <h3>Personal Portfolio Website</h3>
+        <p>
+            I created this website using HTML and CSS
+            to introduce myself, display my skills,
+            and share my educational background.
+        </p>
+        <p><strong>Technologies:</strong> HTML, CSS</p>
+    </div>
+
+    <div class="project">
+        <h3>ICT Practical Exercises</h3>
+        <p>
+            I practise computer troubleshooting,
+            file management, and basic networking
+            as part of my ICT studies.
+        </p>
+        <p><strong>Area:</strong> ICT Support</p>
+    </div>
+</section>
+    </section>
+
+    <section id="education">
+        <h2>My Education</h2>
+
+        <div class="project">
+             <h3>Diploma in Information and Communication Technology</h3>
+             <p>Institution: JKUAT TVET</p>
+             <p>Currently developing my knowledge in computer systems, networking, and web development.</p>
+             </div>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>Basic HTML and CSS</li>
+            <li>Microsoft Office Applications</li>
+            <li>Computer Troubleshooting</li>
+            <li>ICT system support</li>
+            <li>Software Installations</li>
+            <li>Basic Networking</li>
+            <li>File Management</li>
+            <li>Communication and Teamwork</li>
+            <li>Problem Solving</li>
+        </ul>
+        <section id="contact">
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="project">
+            <h3>Project 1: My First Website</h3>
+            <p>A simple website created using HTML and CSS.</p>
+        </div>
+
+        <div class="project">
+            <h3>Project 2: Personal Portfolio</h3>
+            <p>A website introducing me and my ICT skills.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: gracekilonzi013@gmail.com</p>
+        <p>Location: Nairobi</p>
+    </section>
+
+    <footer>
+        <p>My Personal Portfolio | 2026</p>
+    </footer>
+
+</body>
+</html>
